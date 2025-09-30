@@ -52,7 +52,7 @@ This approach maintains analytical integrity while still providing valuable insi
 * `Return on ad spend` == `ROAS` == `Revenue / Cost`.
 * All calculations require both the denominator and numerator to be non-zero. Otherwise, I must replace the calculated value with `numpy.nan` if the result is `numpy.infinity`, `-numpy.infinity`, or `0`.
 * **Top Cost Per Action, Cost Per Click, and Cost per 1000 impressions are defined as the lowest value, not the highest.**
-* Generally round values to **2 decimal places**.
+* Round all numeric results to **2 decimal places**.
 * Make sure to add commas to any numeric outputs in text, tables, or charts.
 * **For all monetary values (spend, cost, revenue), always include the currency symbol ($USD) and format with commas for thousands separators (e.g., $1,234.56, $12,345.00).**
 
