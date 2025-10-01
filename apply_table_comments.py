@@ -13,7 +13,7 @@ from src.utils import get_snowflake_connection, load_data_files, generate_table_
 from src.data_dictionary.DataDictionaryManager import DataDictionaryManager # type: ignore
 
 database = "DEMO"
-schema = "MEDIAPLUS_POC"
+schema = "VISA_DEMO"
 
 obj = get_snowflake_connection('akkio', database=database, schema=schema)
 

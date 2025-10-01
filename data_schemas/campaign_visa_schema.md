@@ -9,7 +9,7 @@ Campaign-level advertising performance data showing impressions, clicks, CTR/VTR
 
 - `market` (STRING): Two-letter market or country code indicating the geographic market for the campaign (e.g., FR). Business purpose: used to group, filter and roll up performance and targeting by geography. | :upper: :all-unique-vals: |<
 - `channel` (STRING): High-level advertising channel used to deliver the campaign (e.g., Programmatic, Digital Display). Business purpose: categorizes spend and performance by channel type for planning and analysis. | :lower: |<
-- `site_name` (STRING): Publisher or platform name where ads ran (e.g., The Trade Desk, Adara). Business purpose: identifies the inventory/source for performance attribution and vendor analysis.
+- `site_name` (STRING): Publisher or platform name where ads ran (e.g., The Trade Desk, Adara). Business purpose: identifies the inventory/source for performance attribution and vendor analysis. | :akkio-context-ignore |<
 - `primary_target` (STRING): Primary audience or targeting strategy label for the line item (e.g., Demographic). Business purpose: indicates the main targeting segment used for campaign delivery to analyze audience performance. | :lower: |<
 - `media_buy_name` (STRING): Descriptive media buy or line-item name for the campaign insertion order. Business purpose: uniquely identifies the specific buy/configuration for tracking, reconciliation and optimization. | :upper: |<
 - `target_type` (STRING): Secondary or detailed targeting attribute describing how the audience was targeted (e.g., behavioral, lookalike). Business purpose: provides additional targeting metadata for segmentation and performance comparison. | :lower: |<
